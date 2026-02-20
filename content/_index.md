@@ -5,7 +5,7 @@ date: 2025-02-19
 
 # Matthew Ouellette
 
-matt.ouellette@zoho.com | [LinkedIn](https://www.linkedin.com/in/mouellette/) | [GitHub](https://github.com/mattyo161) | [978-375-3012](tel:+19783753012)
+[matt.ouellette@zoho.com](mailto:matt.ouellette@zoho.com) | [LinkedIn](https://www.linkedin.com/in/mouellette/) | [GitHub](https://github.com/mattyo161) | [978-375-3012](tel:+19783753012)
 
 3 Hampshire Street – Danvers, MA 01923
 
@@ -62,10 +62,10 @@ Cloud Architecture • Platform Engineering • Infrastructure as Code (Terrafor
 
 ---
 
-### Lexia Learning, A Rosetta Stone Company – Concord, MA (2016 – 2019)
+### Lexia Learning, A Rosetta Stone Company – Concord, MA *(2016 – 2019)*
 *Improving student literacy through the use of technology*
 
-#### Senior DevOps Software Engineer *(2016 – 2019)*
+#### Senior DevOps Software Engineer
 
 Led a major technical/process improvement effort for e-learning software suite, including multiple infrastructure and software improvements in the areas of AWS cloud, Configuration Management, Infrastructure as Code, CI/CD, and Business Intelligence. 
 
@@ -83,7 +83,7 @@ Led a major technical/process improvement effort for e-learning software suite, 
 ### Cabot Heritage Corporation – Salem, MA *(2013 – 2016)*
 *Independent Investment Advisory Services*
 
-#### Director of Technology *(2013 – 2016)*
+#### Director of Technology
 
 Stabilized and streamlined a failing system architecture with new network, VPN and cloud architecture. Developed new objects in Sitecore CMS to improve site-wide SEO, provide new paid services, and improve customer functionality. Supported Marketing with campaign scripts for name collection, targeted advertising, and lifetime name value analysis. Improved in-house communication, project management, and business intelligence.
 
@@ -94,58 +94,16 @@ Stabilized and streamlined a failing system architecture with new network, VPN a
 
 ---
 
-### Eagle-Tribune Publishing Company – North Andover, MA *(1990 – 2012)*
+### Eagle-Tribune Publishing Company – North Andover, MA
 *Publisher of four morning daily newspapers and four weekly newspapers with 300K readers.*
 
 #### Director of Research & Development *(2006 – 2012)*
 
 Led all web, software, and operations development to drive sales and expand readership. Key player in implementing new order entry and accounts receivable systems. Revamped web strategies, maintain interdepartmental communication, and improve website quality and design to increase web traffic. Analyzed market data, create program, and trained web designers to successfully deploy the Daily Deals initiative. 
 
-- Generated $30K in sales, $20K in revenue, and achieved +8K new subscribers by developing and launching new online contest platforms.
-- Attained $27K in gross profit within six weeks of the Daily Deals program launch. Obtained record-breaking 100% Wave2 participation in under six weeks, earning $30K-$40K in additional monthly revenue.
-- Captured $200K in annual savings through department consolidation and process automation.
-
 #### Director of Research & Development, Production *(2004 – 2006)*
 
 Assembled and captained development team to build custom integration software, improving content management capabilities for multiple departments. Created centralized advertising web-application to synthesize data from five disparate systems into one user-friendly application, improving ad layout accuracy while streamlining interdepartmental communication.
-
-- Introduced standards for Source Configuration Management, Continuous Integration, and Development Environment utilizing CVS, Bamboo, and Eclipse.
-- Improved information tracking processes for 100+ sales representatives, managers, and employees by creating a Java-based Webportal to monitor digital and print advertisements.
-
-#### Software Engineer, Production *(1999 – 2004)*
-
-- Saved significant, enterprise-wide man-hours and earned "20 Under 40" Award from Newspaper Association of America by pioneering the Central Desk to consolidate production operations across all business lines.
-
-#### Application Specialist & Programmer *(1994 – 1999)*
-
-- Accomplished $1M in system savings, $750K in staff savings, and $120K in maintenance savings by developing an in-house news pagination system.
-- Increased productivity and improved performance by developing a revolutionary templating system to automate visual formatting processes. 
-
-## TECHNOLOGY PORTFOLIO
-
-### Programming
-Java, PHP, Perl, JavaScript, Laravel, Python, Regular Expressions, Ruby, SQL, UNIX shell scripting, UserTalk, AppleScript, Visual Basic, LotusScript, C, C++, HTML, XML, XSL, CSS, RSS, Swagger, JSON, Ajax, Ant, JSP, Struts, Tapestry, Tomcat, Rails, DJango, Sitecore, Twilio
-
-### Hardware
-Macintosh, Linux Servers, AWS Cloud Infrastructure, SUN servers, Windows desktops & servers, Cisco routers & switches, Fortinet routers, pfSense software router and firewall, tape & optical libraries, SAN switches & storage arrays
-
-### Networks
-DHCP, DNS, FTP, HTTP(S), Routing, NFS, NTP, SMTP, SNMP, SSH, Telnet, VPN, SAML, OAuth2, REST, XML-RPC, SOAP, Firewalls
-
-### Data Storage & Retrieval
-MySQL, MS SQL Server (6, 7, 2000 & 2005), Postgres, Sybase, MS Access (2, 97, 2000), Lotus Notes, Tableau Desktop & Server, ElasticSearch, Splunk, MongoDB, Firebase
-
-### OS
-Mac OS X, UNIX (Solaris, Linux, CentOS, FreeBSD, Ubuntu), Windows (9x, NT, XP, 2000, 2003, 7), Cisco IOS 
-
-### Development Software
-PHPStorm, SVN, GIT, CVS, Eclipse, TeamCity, Microsoft Visual Studio, Atlassian (Bamboo, Confluence, Jira, SourceTree, Fisheye), TextWrangler, Vi, Xcode
-
-### General Software
-Microsoft (Word, Excel, PowerPoint, Visio), 1Password, Google Docs, Rackspace, Lotus Notes, Adobe (Acrobat, Photoshop, Illustrator & InDesign), Quark Xpress
-
-### SaaS
-AWS, Slack, Splunk, AWS, Terraform, Okta, LucidChart, Asana, Optimizely, CrazyEgg, Qubit Opentag, Google Analytics, Litmus, Chatra, Zendesk, Twilio, Hubspot, Mandrill, Mailchimp, Heap Analytics, Browserstack, Github, Bitbucket, Namecheap, Dropbox, Bob, DNSMadeEasy
 
 ## EDUCATION & AWARDS
 
