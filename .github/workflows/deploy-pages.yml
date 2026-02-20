@@ -35,8 +35,10 @@ jobs:
 
       - name: Setup LaTeX (for PDF)
         run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended
-        
+
       - name: Build site (Hugo + Word + PDF)
+        env:
+          HUGO_BASEURL: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && format('https://{0}.github.io/', github.repository_owner) || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
         run: make all
 
       - name: Upload artifact
