@@ -28,7 +28,7 @@ docx:
 # Build PDF (Pandoc + LaTeX required)
 pdf:
 	@if command -v $(PANDOC) >/dev/null 2>&1; then \
-		$(PANDOC) "$(CONTENT)" -o "$(OUTPUT_PDF)" --css $(OUTPUT_CSS) --template templates/resume-pdf.html && echo "Generated $(OUTPUT_PDF)" || \
+		$(PANDOC) "$(CONTENT)" -o "$(OUTPUT_PDF)" --css $(OUTPUT_CSS) -t html --template templates/resume-pdf.html && echo "Generated $(OUTPUT_PDF)" || \
 		(echo "PDF generation failed (LaTeX required). Install: brew install --cask basictex"; brew install weasyprint; exit 0); \
 	else \
 		echo "Skipping PDF: Pandoc not found (brew install pandoc)"; \
