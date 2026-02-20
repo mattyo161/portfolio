@@ -33,6 +33,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc
 
+      - name: Setup LaTeX (for PDF)
+        run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended
+        
       - name: Build site (Hugo + Word + PDF)
         run: make all
 
