@@ -1,0 +1,6 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'Matthew Ouellette | Staff Platform Engineer'
+
+[params]
+  description = "Staff Platform / DevOps Engineer specializing in large-scale cloud infrastructure, platform modernization, and cost optimization."

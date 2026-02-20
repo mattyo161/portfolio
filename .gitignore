@@ -1,0 +1,17 @@
+## Hugo build output
+public/
+resources/
+
+## Hugo lock file
+.hugo_build.lock
+
+## OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+## Node / tooling (if added later)
+node_modules/
+dist/
+

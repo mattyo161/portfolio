@@ -1,0 +1,169 @@
+/* Resume – Traditional / formal design
+   Classic, conservative, corporate-ready */
+
+:root {
+  --color-text: #1f2937;
+  --color-text-muted: #4b5563;
+  --color-accent: #1e40af;
+  --font-serif: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Source Sans 3', Arial, sans-serif;
+  --max-width: 8.5in;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  font-family: var(--font-serif);
+  font-size: 11pt;
+  line-height: 1.45;
+  color: var(--color-text);
+  background: #f3f4f6;
+}
+
+.resume-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background: #fff;
+  padding: 2.25rem 2.5rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.toolbar {
+  max-width: calc(var(--max-width) + 5rem);
+  margin: 0 auto 1rem auto;
+  padding: 0.75rem 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  background: #1e40af;
+  color: #fff;
+  border-radius: 4px;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+}
+
+.toolbar-downloads a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+.toolbar-downloads a:hover {
+  color: #fff;
+}
+
+.toolbar-designs {
+  margin-left: auto;
+}
+
+.toolbar-designs a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+.toolbar-designs a:hover,
+.toolbar-designs a.active {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Header / Name */
+.resume h1:first-child {
+  font-family: var(--font-sans);
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem 0;
+  color: #111827;
+  border-bottom: 3px double var(--color-accent);
+  padding-bottom: 0.5rem;
+}
+
+.resume h1:first-child + p,
+.resume p:first-of-type {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.resume h1:first-child + p + p,
+.resume p:nth-of-type(2) {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0 0 1.25rem 0;
+}
+
+/* Section headings */
+.resume h2 {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #111827;
+  margin: 1.5rem 0 0.6rem 0;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #9ca3af;
+}
+
+.resume h2:first-of-type {
+  margin-top: 0;
+}
+
+.resume h3 {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 1.25rem 0 0.35rem 0;
+}
+
+.resume h4 {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin: 0.9rem 0 0.3rem 0;
+}
+
+.resume p {
+  margin: 0.5rem 0 0.65rem 0;
+}
+
+.resume ul {
+  margin: 0.4rem 0 0.65rem 0;
+  padding-left: 1.35rem;
+}
+
+.resume li {
+  margin-bottom: 0.35rem;
+}
+
+.resume a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+.resume em {
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+@media print {
+  body { padding: 0; background: #fff; }
+  .toolbar { display: none !important; }
+  .resume-container { max-width: 100%; }
+  .resume-container { border: none; box-shadow: none; padding: 0; }
+  .resume h2 { page-break-after: avoid; }
+  .resume h3, .resume h4 { page-break-after: avoid; }
+  .resume li { page-break-inside: avoid; }
+  .resume a { color: var(--color-text); }
+}
