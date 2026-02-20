@@ -16,6 +16,13 @@ Staff-level Platform / DevOps Engineer specializing in large-scale cloud infrast
 ### Core Competencies
 Cloud Architecture • Platform Engineering • Infrastructure as Code (Terraform) • Distributed Systems • CI/CD Modernization • AWS Ecosystem • Cost Optimization & FinOps • Reliability • Engineering • Observability • Security Architecture (OAuth / Cognito / IAM) • Cross-Team Technical Leadership • Standards & Best Practices • Performance Optimization • Large-Scale Data Systems
 
+### KEY IMPACT HIGHLIGHTS
+- Reduced platform operational costs by >$70k/month through logging and storage optimization initiatives
+- Designed systems supporting billions of objects / petabytes of data
+- Modernized CI/CD infrastructure supporting 10 orgs, 1,000+ repositories, and 500+ engineers
+- Delivered long-lived security architecture adopted across 30+ services
+- Migrated SaaS application from on-premises hardware to AWS Cloud, including 3.5 TB MySQL DB
+
 ## PROFESSIONAL EXPERIENCE
 
 ### Curriculum Associates – Billerica, MA *(2019 – Present)*
@@ -42,13 +49,6 @@ Cloud Architecture • Platform Engineering • Infrastructure as Code (Terrafor
 - Resolved Cognito client-scaling constraints by designing a scope-based authorization model using single-client-per-service patterns, preventing long-term platform limitations
 - Refactored Terraform architecture to support evolving security requirements, including externalized configuration logic via Lambda integrations
 - Delivered a security platform now supporting 30+ services across environments, establishing a durable foundation for service growth
-
-
-### KEY IMPACT HIGHLIGHTS
-- Reduced platform operational costs by >$70k/month through logging and storage optimization initiatives
-- Designed systems supporting billions of objects / petabytes of data
-- Modernized CI/CD infrastructure supporting 1,000+ repositories
-- Delivered long-lived security architecture adopted across 30+ services
 
 ### TECHNICAL STACK
 - **Cloud:** AWS (S3, Athena, CloudFront, Cognito, Lambda, CloudTrail, ALB/ELB/NLB)
