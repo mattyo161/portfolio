@@ -16,7 +16,7 @@ Staff-level Platform / DevOps Engineer specializing in large-scale cloud infrast
 ### Core Competencies
 Cloud Architecture • Platform Engineering • Infrastructure as Code (Terraform) • Distributed Systems • CI/CD Modernization • AWS Ecosystem • Cost Optimization & FinOps • Reliability • Engineering • Observability • Security Architecture (OAuth / Cognito / IAM) • Cross-Team Technical Leadership • Standards & Best Practices • Performance Optimization • Large-Scale Data Systems
 
-### KEY IMPACT HIGHLIGHTS
+### Key Impact Highlights
 - Reduced platform operational costs by >$70k/month through logging and storage optimization initiatives
 - Designed systems supporting billions of objects / petabytes of data
 - Modernized CI/CD infrastructure supporting 10 orgs, 1,000+ repositories, and 500+ engineers
