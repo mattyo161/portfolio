@@ -7,6 +7,7 @@ CONTENT := content/_index.md
 STATIC := static
 OUTPUT_PDF := $(STATIC)/resume.pdf
 OUTPUT_DOCX := $(STATIC)/resume.docx
+OUTPUT_CSS := $(STATIC)/css/resume-minimal.css
 
 .PHONY: all build pdf docx site clean serve
 
@@ -19,7 +20,7 @@ site:
 # Build Word document (Pandoc required)
 docx:
 	@if command -v $(PANDOC) >/dev/null 2>&1; then \
-		$(PANDOC) "$(CONTENT)" -o "$(OUTPUT_DOCX)" && echo "Generated $(OUTPUT_DOCX)"; \
+		$(PANDOC) "$(CONTENT)" -o "$(OUTPUT_DOCX)" --css $(OUTPUT_CSS) && echo "Generated $(OUTPUT_DOCX)"; \
 	else \
 		echo "Skipping Word: Pandoc not found (brew install pandoc)"; \
 	fi
@@ -27,8 +28,8 @@ docx:
 # Build PDF (Pandoc + LaTeX required)
 pdf:
 	@if command -v $(PANDOC) >/dev/null 2>&1; then \
-		$(PANDOC) "$(CONTENT)" -o "$(OUTPUT_PDF)" && echo "Generated $(OUTPUT_PDF)" || \
-		(echo "PDF generation failed (LaTeX required). Install: brew install --cask basictex"; exit 0); \
+		$(PANDOC) "$(CONTENT)" -o "$(OUTPUT_PDF)" --css $(OUTPUT_CSS) --template templates/resume-pdf.html && echo "Generated $(OUTPUT_PDF)" || \
+		(echo "PDF generation failed (LaTeX required). Install: brew install --cask basictex"; brew install weasyprint; exit 0); \
 	else \
 		echo "Skipping PDF: Pandoc not found (brew install pandoc)"; \
 	fi

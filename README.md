@@ -6,7 +6,11 @@ A Hugo-based site that renders your resume from Markdown with multiple designs a
 
 - [Hugo](https://gohugo.io/installation/): `brew install hugo`
 - [Pandoc](https://pandoc.org/) (for Word/PDF): `brew install pandoc`
-- For PDF export: LaTeX (optional) – `brew install --cask basictex`
+- For PDF export: install 
+```shell
+brew install --cask basictex
+brew install weasyprint
+```
 
 ## Development
 
