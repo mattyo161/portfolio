@@ -28,8 +28,13 @@ jobs:
           hugo-version: '0.134.0'
           extended: true
 
-      - name: Build site
-        run: hugo --minify
+      - name: Setup Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Build site (Hugo + Word + PDF)
+        run: make all
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
