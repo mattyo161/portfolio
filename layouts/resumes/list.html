@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="resume">
+  <h1>Resumes</h1>
+  <p>Available resume versions:</p>
+  <ul>
+    {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}
