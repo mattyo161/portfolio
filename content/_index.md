@@ -7,7 +7,7 @@ date: 2025-02-19
 
 [matt.ouellette@zoho.com](mailto:matt.ouellette@zoho.com) | [LinkedIn](https://www.linkedin.com/in/mouellette/) | [GitHub](https://github.com/mattyo161) | [Phone](mailto:matt.ouellette@zoho.com)
 
-[Addresds - Boston, MA](mailto:matt.ouellette@zoho.com)
+[Boston, MA](mailto:matt.ouellette@zoho.com)
 
 ## Staff Platform / DevOps Engineer
 
