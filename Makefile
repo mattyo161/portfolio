@@ -22,6 +22,7 @@ docx:
 	@if command -v $(PANDOC) >/dev/null 2>&1; then \
 		$(PANDOC) "$(CONTENT)" -o "$(OUTPUT_DOCX)" --css $(OUTPUT_CSS) && echo "Generated $(OUTPUT_DOCX)"; \
 		for file in $(wildcard content/resumes/*.md); do \
+			mkdir -p "$(STATIC)/resumes/$$(basename $$file .md)"; \
 			$(PANDOC) "$$file" -o "$(STATIC)/resumes/$$(basename $$file .md)/resume.docx" --css $(OUTPUT_CSS) && echo "Generated $$(basename $$file .md)/resume.docx"; \
 		done; \
 	else \
