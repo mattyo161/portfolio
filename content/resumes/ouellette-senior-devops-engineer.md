@@ -10,7 +10,7 @@ category: resume
 
 [Addresds - Boston, MA](mailto:matt.ouellette@zoho.com)
 
-## Staff Platform / DevOps Engineer
+## Senior DevOps Engineer
 
 Staff-level Platform / DevOps Engineer specializing in large-scale cloud infrastructure, platform modernization, and cost optimization. Proven track record of designing resilient systems, driving cross-team architectural decisions, and leading high-impact initiatives across Terraform, AWS, CI/CD, and observability platforms. Recognized for translating complex technical constraints into scalable, maintainable solutions delivering measurable performance, reliability, and financial outcomes.
 
