@@ -5,20 +5,23 @@ date: 2025-02-19
 
 # Matthew Ouellette
 
-[matt.ouellette@zoho.com](mailto:matt.ouellette@zoho.com) | [LinkedIn](https://www.linkedin.com/in/mouellette/) | [GitHub](https://github.com/mattyo161) | [978-375-3012](tel:+19783753012)
+[matt.ouellette@zoho.com](mailto:matt.ouellette@zoho.com) | [LinkedIn](https://www.linkedin.com/in/mouellette/) | [GitHub](https://github.com/mattyo161) | [Phone](mailto:matt.ouellette@zoho.com)
 
-3 Hampshire Street – Danvers, MA 01923
+[Addresds - Boston, MA](mailto:matt.ouellette@zoho.com)
 
 ## Staff Platform / DevOps Engineer
 
 Staff-level Platform / DevOps Engineer specializing in large-scale cloud infrastructure, platform modernization, and cost optimization. Proven track record of designing resilient systems, driving cross-team architectural decisions, and leading high-impact initiatives across Terraform, AWS, CI/CD, and observability platforms. Recognized for translating complex technical constraints into scalable, maintainable solutions delivering measurable performance, reliability, and financial outcomes.
 
 ### Core Competencies
-Cloud Architecture • Platform Engineering • Infrastructure as Code (Terraform) • Distributed Systems • CI/CD Modernization • AWS Ecosystem • Cost Optimization & FinOps • Reliability • Engineering • Observability • Security Architecture (OAuth / Cognito / IAM) • Cross-Team Technical Leadership • Standards & Best Practices • Performance Optimization • Large-Scale Data Systems
+- Cloud Architecture, Platform Engineering, Infrastructure/Configuration as Code
+- Reliability, Observability, Cost Optimization & FinOps, Performance Optimization
+- Cross-Team Technical Leadership, Standards & Best Practices, Large-Scale Data Systems
+- Distributed Systems, CI/CD Modernization, AWS Ecosystem, Security Architecture (OAuth/Cognito)
 
 ### Key Impact Highlights
 - Reduced platform operational costs by >$70k/month through logging and storage optimization initiatives
-- Designed systems supporting billions of objects / petabytes of data
+- Designed systems supporting billions of objects/petabytes of data
 - Modernized CI/CD infrastructure supporting 10 orgs, 1,000+ repositories, and 500+ engineers
 - Delivered long-lived security architecture adopted across 30+ services
 - Migrated SaaS application from on-premises hardware to AWS Cloud, including 3.5 TB MySQL DB
@@ -39,7 +42,7 @@ Cloud Architecture • Platform Engineering • Infrastructure as Code (Terrafor
 - Developed high-efficiency stream-processing tooling to perform large-scale object deletions, demonstrating deep understanding of AWS data plane behavior and operational scaling limits
 
 #### Performance & Reliability Engineering
-- Identified and mitigated token management inefficiencies contributing to elevated infrastructure load by redesigning token refresh strategy, reducing unnecessary TTL updates and improving system stability
+- Identified and mitigated token management inefficiencies contributing to elevated infrastructure load by redesigning the token refresh strategy, reducing unnecessary TTL updates and improving system stability
 - Diagnosed recurring API/database performance issues and proposed application-layer caching strategies to eliminate excessive DocumentDB queries for static configuration data
 - Partnered with operations and development teams to address connection limits, pooling inefficiencies, and query performance bottlenecks
 
